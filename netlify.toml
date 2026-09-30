@@ -1,0 +1,10 @@
+[build]
+  base = "bonafide-ai/frontend"
+  command = "npm ci --include=dev && npm run build"
+  publish = "dist"
+
+# Serve index.html for client-side routes (React Router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
