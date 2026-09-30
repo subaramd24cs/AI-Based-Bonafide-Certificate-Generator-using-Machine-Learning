@@ -2,8 +2,8 @@ node_modules/
 .env
 *.pkl
 __pycache__/
-uploads/
-certificates/
+backend/uploads/
+backend/certificates/
 dist/
 .DS_Store
 *.log
